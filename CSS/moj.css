@@ -1,0 +1,211 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #333;
+  font-size: 50px;
+}
+
+section {
+  margin: 20px 0;
+  height: 400px;
+  background-color: #789;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  text-align: center;
+}
+
+.one {
+  background-color: gold;
+}
+
+.two {
+  background-color: lime;
+}
+
+.three {
+  background-color: royalblue;
+}
+
+.four {
+  background-color: tomato;
+}
+
+.five {
+  background-color: #873260;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.six {
+  background-color: #ff8c00;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.seven {
+  background-color: #002fa7;
+}
+
+.eight {
+  background-color: #9bddff;
+}
+
+.first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.third {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fourth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.squaretwo {
+  width: 400px;
+  height: 150px;
+  line-height: 150px;
+  text-align: center;
+}
+
+.nine {
+  background-color: #c2b280;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.ten {
+  background-color: #008080;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.eleven {
+  background-color: #2a52be;
+}
+
+.twelve {
+  background-color: #fff0f5;
+}
+
+.fifth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.sixth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.thirteen {
+  background-color: #dfff00;
+}
+
+.fourteen {
+  background-color: #264348;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-box-ordinal-group: -9;
+      -ms-flex-order: -10;
+          order: -10;
+}
+
+.fifteen {
+  background-color: #cc00ff;
+  -webkit-box-ordinal-group: -13;
+      -ms-flex-order: -14;
+          order: -14;
+}
+
+.sixteen {
+  background-color: #367588;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 500px;
+          flex: 1 0 500px;
+  -webkit-box-ordinal-group: -19;
+      -ms-flex-order: -20;
+          order: -20;
+}
+/*# sourceMappingURL=moj.css.map */

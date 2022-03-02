@@ -1,0 +1,146 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+	background-color: #333;
+	font-size: 50px;
+}
+
+section {
+	margin: 20px 0;
+	height: 400px;
+	background-color: #789;
+}
+
+.square {
+	width: 150px;
+	height: 150px;
+	line-height: 150px;
+	text-align: center;
+}
+
+.one {
+	background-color: gold;
+}
+
+.two {
+	background-color: lime;
+}
+
+.three {
+	background-color: royalblue;
+}
+
+.four {
+	background-color: tomato;
+}
+
+.five {
+	background-color: #873260;
+	flex-grow: 1;
+}
+
+.six {
+	background-color: #ff8c00;
+	flex-grow: 1;
+}
+
+.seven {
+	background-color: #002fa7;
+}
+
+.eight {
+	background-color: #9bddff;
+}
+
+.first {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.second {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-end;
+	flex-wrap: wrap;
+}
+
+.third {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.fourth {
+	display: flex;
+	flex-direction: row;
+}
+
+
+.squaretwo {
+	width: 400px;
+	height: 150px;
+	line-height: 150px;
+	text-align: center;
+}
+
+.nine {
+	background-color: #c2b280;
+	flex-shrink: 0;
+}
+
+.ten {
+	background-color: #008080;
+	flex-shrink: 0;
+}
+
+
+.eleven {
+	background-color: #2a52be;
+}
+
+.twelve {
+	background-color: #fff0f5;
+}
+
+.fifth {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.sixth {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+}
+
+.thirteen {
+	background-color: #dfff00;
+}
+
+.fourteen {
+	background-color: #264348;
+	align-self: center;
+	order: -10;
+}
+
+.fifteen {
+	background-color:  #cc00ff;
+	order: -14;
+}
+
+.sixteen {
+	background-color:  #367588;
+	align-self: center;
+	flex: 1 0 500px;
+	order: -20;
+}
